@@ -7,7 +7,7 @@ import os
 
 
 DIR_DATA = './data/'
-DIR_OUT = DIR_DATA + './out/'
+DIR_OUT = DIR_DATA + 'out/'
 rgbAnnFile = DIR_DATA + 'aauRainSnow-rgb.json'
 var_lapl_limit = 1.6  # threshold of laplacian variance
 
