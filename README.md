@@ -8,10 +8,10 @@ Visible vehicles are marked by green bounding boxes, and invisible ones are mark
 
 2) Download Dockerfile.
 
-3) Build docker image:
+3) Build docker image:<br>
     docker build -t test/test . 
 
-4) Run docker container
+4) Run docker container:<br>
     docker run -ti --rm -v /tmp/data:/home/test/data --name test3 test/test
 
 Output images will be in /tmp/data/out/
